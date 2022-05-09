@@ -24,6 +24,7 @@ import fs from "fs";
 
 
 
+    ///
     async function makeApiCall(currentPage) {
 
         if (currentPage > finall) return;
@@ -51,9 +52,7 @@ import fs from "fs";
 
     }
 
-
-
-
+    ///
     async function parallelCall(start, stop) {
 
         try {
